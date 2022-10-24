@@ -114,33 +114,38 @@ footer p{
 /* Mobile Devices */
 @media only screen and (min-width:320px) and (max-width:480px) {
   .flex-sec,  .flexible { 
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   } 
   #menu{
-    margin: 20px 20px;
+    margin: auto;
   }
   .image-0 img{
     object-fit: contain;
     width: 100%;
   }
   .email{
-    font-size: 24px;
+    font-size: 20px;
   }
   .head-h1{
-    font-size: 32px;
+    font-size: 28px;
   }
   .btn-more{
     margin-top: 60px;
     padding: 15px 15px;
   }
 }
-/* Tables */
+/* Tablets */
 @media only screen and (min-width:481px) and (max-width:1024px) {
   .flex-sec { 
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   } 
+  #menu{
+    margin: auto;
+  }
   .image-0 img{
     object-fit: contain;
     width: 100%;
